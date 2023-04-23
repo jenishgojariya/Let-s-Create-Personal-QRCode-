@@ -1,0 +1,39 @@
+body{
+    width: 100vw;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.cont{
+    /* border: 2px  solid; */
+    border-radius: 22px;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 330px;
+   height: 500px;
+    /* margin: auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    box-shadow:rgba(0,0,0,0.35)0px 5px 15px;
+}
+
+.qr{
+    margin:10px 0 0px 0;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h2{
+    width: 290px;
+    margin: 0 auto 10px;
+    color: hsl(218, 44%, 22%);
+}
+
+p{
+    width: 280px;
+    margin: 0 auto;
+    color: hsl(220, 15%, 55%);
+}
